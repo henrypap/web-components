@@ -1,0 +1,20 @@
+{
+  "name": "circular",
+  "version": "1.0.0",
+  "description": "web-component library",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web-component",
+    "interzero",
+    "typescript",
+    "sass"
+  ],
+  "author": "Henry Pap",
+  "license": "ISC",
+  "workspaces": [
+    "packages/**/*"
+  ]
+}
