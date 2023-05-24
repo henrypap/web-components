@@ -4,7 +4,6 @@ node_modules/
 # Ignore build output directory
 dist/
 build/
-.parcel-cache/
 .devserver-temp/
 
 # Ignore package lock file
@@ -16,7 +15,6 @@ package-lock.json
 .npmignore
 
 # Ignore editor files
-.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
