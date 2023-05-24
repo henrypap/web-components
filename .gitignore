@@ -3,7 +3,9 @@ node_modules/
 
 # Ignore build output directory
 dist/
-.parcel-cache
+build/
+.parcel-cache/
+.devserver-temp/
 
 # Ignore package lock file
 package-lock.json
@@ -29,3 +31,11 @@ Thumbs.db
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Ignore Python virtual environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+lib/

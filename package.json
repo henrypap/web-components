@@ -1,10 +1,14 @@
 {
-  "name": "circular",
+  "name": "@circular/web-components",
   "version": "1.0.0",
   "description": "web-component library",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "sh ./scripts/init.sh",
+    "create": "sh ./scripts/generator/copy.sh",
+    "clean": "sh ./scripts/clean.sh",
+    "start": "cd ./ecosystem && npm run combine",
+    "document": ""
   },
   "keywords": [
     "web-component",
@@ -15,6 +19,7 @@
   "author": "Henry Pap",
   "license": "ISC",
   "workspaces": [
+    "ecosystem",
     "packages/**/*"
   ]
 }
